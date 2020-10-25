@@ -1,0 +1,29 @@
+.container{
+  display: grid;
+  grid-template: "header header"
+                 "img content"
+                 "footer footer";
+  grid-template-columns: 1fr 1fr;
+
+}
+
+h1{
+  font-weight: 700;
+}
+.image{
+  height: 500px;
+}
+
+p{
+  font-weight: 500;
+}
+
+.btn {
+  background-color: #333333;
+  color: white;
+  width: 210px;
+  height: 80px;
+  display: grid;
+  align-content: center;
+  text-align: center;
+}
