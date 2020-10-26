@@ -1,10 +1,7 @@
 .container{
+  margin-top: 50px;
   display: grid;
-  grid-template: "header header"
-                 "img content"
-                 "footer footer";
   grid-template-columns: 1fr 1fr;
-
 }
 
 h1{
@@ -27,3 +24,31 @@ p{
   align-content: center;
   text-align: center;
 }
+
+.footer{
+  width: 100%;
+  color: black;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 25px;
+  font-family: sans-serif;
+  //display: grid;
+  //grid-template-columns: 1fr;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:1fr;
+
+  }
+
+  .image{
+    height: 270px;
+  }
+}
+
