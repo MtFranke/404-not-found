@@ -1,7 +1,7 @@
 ## page not found
 My solution for exercise at [devchallenges.io](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY)
 
-Hosted solution available at [click](), phone size available.
+Hosted solution available at [click](https://mateuszfranke.github.io/404-not-found/), phone size available.
 
 
 ## user stories
